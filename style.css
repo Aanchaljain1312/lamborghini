@@ -1,0 +1,63 @@
+header{
+    background-image: url(https://www.drivespark.com/images/2019-09/lamborghini-sian-exterior-5.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    position: relative;
+}
+
+
+/*title*/
+.title{
+    background-color:rgb(1, 31, 70, 0.4);
+    text-shadow:1px 1px 1px white ;
+}
+.title p{
+    
+    text-shadow: 1px 1px 1px rgb(56, 53, 68);
+}
+
+.s{
+    color: rgb(1, 31, 70);
+}
+.banner{
+    position: absolute;
+    bottom: -30px;
+    border: 5px solid white;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(37, 37, 37);
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+ .card-img-top{
+    width: -100%;
+    height: 200px;
+    object-fit: cover;
+ }
+
+ /*bg-img for main*/
+ .main{
+   background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    background-attachment: fixed;
+    background-position: bottom;
+ }
+
+ footer{
+    display: flex;
+    justify-content: space-around;
+ }
+ .d{
+    background-color: rgb(22, 20, 20);
+ }
+ footer .footer-img{
+    width: 200px;
+    border-radius: 50%;
+ }
+ .carousel-inner{
+    height: 400px;
+ }
